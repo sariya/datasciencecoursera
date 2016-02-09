@@ -1,6 +1,9 @@
 Date Feb 09 2016
+
 Data Science Course
+
 Programming Assignment 2
+
 cachematrix.R script name
 
 HOW TO RUN ----------------
