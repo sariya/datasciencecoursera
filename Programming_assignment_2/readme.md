@@ -7,6 +7,11 @@ Programming Assignment 2
 cachematrix.R script name
 
 HOW TO RUN ----------------
+
+
+source the script
+
+
 ###### Non zero determinant
 
 m<-matrix(1:4,nrow = 2,ncol = 2)
