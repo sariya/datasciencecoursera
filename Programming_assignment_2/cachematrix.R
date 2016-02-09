@@ -14,7 +14,7 @@
 ## Write a short comment describing this function
 #makeCacheMAtrix - creates matrix.. and set the invers as NULL. It is set when cachesolver is called. Upon calling once
 #                                                               stored inverse is used
-#It also checks for non determinant
+
 
 makeCacheMatrix <- function(x = matrix()) {
   
