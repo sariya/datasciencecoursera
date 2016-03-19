@@ -8,7 +8,7 @@
 
 library(dplyr)
 
-# Run this script InsideUCI HAR Dataset directory
+# Run this script Inside UCI HAR Dataset directory
 # 2 step process: clean test data set
 #                 clean training data set      
 #   Merge both
