@@ -140,4 +140,4 @@ Merged data has 89 columns
     * It has 2 variables:
       * lables
       * activity name
-20. Add acitivity information 
+20. Add activity information 
