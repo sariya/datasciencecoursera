@@ -101,3 +101,4 @@ write.table(y,file = "clean_data.txt",quote = FALSE) # you cannot write data fra
 write.table(o,file = "mean_clean_data.txt",quote = FALSE) # you cannot write data frame
 # output data means
 
+
