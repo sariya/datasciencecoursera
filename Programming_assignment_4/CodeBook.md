@@ -15,7 +15,7 @@ Merged data has 89 columns
 * `STANDING` label value `5`
 * `LAYING` label value `6`
 
-###Measurements:
+### 86 Measurements:
 * tBodyAccStdX
 * tBodyAccStdY
 * tBodyAccStdZ
