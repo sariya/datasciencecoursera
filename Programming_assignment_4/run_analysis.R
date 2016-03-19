@@ -61,7 +61,7 @@ names(j)<-(gsub("std","Std",names(j))) # change mean to Mean, and std to Std
 
 #-- j variable has everything clean for y data 
 
-## ------------------ Merging data  here it is stacking -- appending of rows
+## ------------------ Merging data. stacking -- appending of rows
 
 t<-rbind(r,j)
 
