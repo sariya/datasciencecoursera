@@ -6,6 +6,7 @@ Merged data has 89 columns
 * Activity `column 1`
 * Subject `column 2`
 * Activity label `column 3`
+
 ###Activity and their labels:
 * WALKING label value 1 
 * WALKING_UPSTAIRS value 2
@@ -13,8 +14,8 @@ Merged data has 89 columns
 * SITTING value 4
 * STANDING value 5
 * LAYING value 6
-###Measurements:
 
+###Measurements:
 * tBodyAccStdX
 * tBodyAccStdY
 * tBodyAccStdZ
