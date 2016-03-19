@@ -4,6 +4,8 @@ Date March 19 2016
 
 * Get features loaded in one variable which will be used both by training and test data
 * Input Data is read in 2 seperate steps: training and test individually
+* Output for mean, and merged data have columns for Std deviation and mean for each of the 6 activities
+
 
 1. Read `features.txt` with header as F
 2. Read `X_test.txt` in `x_test` variable
