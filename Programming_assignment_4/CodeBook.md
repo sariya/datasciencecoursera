@@ -56,84 +56,84 @@ Merged data has 89 columns
 * tBodyAccStdZ
 * tGravityAccStdX
 * tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagStd
-tGravityAccMagStd
-tBodyAccJerkMagStd
-tBodyGyroMagStd
-tBodyGyroJerkMagStd
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagStd
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagStd
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyAccMagMean
-tGravityAccMagMean
-tBodyAccJerkMagMean
-tBodyGyroMagMean
-tBodyGyroJerkMagMean
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagMeanFreq
-angletBodyAccMeangravity
-angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean
-angletBodyGyroJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
+* tGravityAccStdZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyAccMagStd
+* tGravityAccMagStd
+* tBodyAccJerkMagStd
+* tBodyGyroMagStd
+* tBodyGyroJerkMagStd
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* fBodyAccMagStd
+* fBodyBodyAccJerkMagStd
+* fBodyBodyGyroMagStd
+* fBodyBodyGyroJerkMagStd
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyAccMagMean
+* tGravityAccMagMean
+* tBodyAccJerkMagMean
+* tBodyGyroMagMean
+* tBodyGyroJerkMagMean
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagMeanFreq
+* angletBodyAccMeangravity
+* angletBodyAccJerkMeangravityMean
+* angletBodyGyroMeangravityMean
+* angletBodyGyroJerkMeangravityMean
+* angleXgravityMean
+* angleYgravityMean
+* angleZgravityMean
