@@ -6,9 +6,9 @@ Sanjeev Sariya
 * Script will merge data and generate clean data with 89 columns:
   * 86 measurements
   * 3 columns: subject, label, and activity
+    * 6 activities
+    * 30 subjects
 * Output will be generated in  "UCI HAR Dataset"
-* 6 activities
-* 30 subjects
 * 2 output **.txt** files:
   * clean_data.txt: Clean data merged from training and test data
     * 10299 rows
