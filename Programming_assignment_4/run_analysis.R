@@ -76,7 +76,7 @@ activity_list <- as.list(activity_labels) #get activity list
 #- add activity to each row. Drop levels
 # Loop over t- merged data
 # merged data has label in it. If label matches from activity list 
-#                               Add respective activity to the row
+#                               Add respective activity to row
 
 for(i in 1:dim(t)[1]){
   g #temp variable
@@ -85,16 +85,13 @@ for(i in 1:dim(t)[1]){
 }
 ## for loop ends
 
-t$activity=as.factor(t$activity) #make activty colmn as factor
+t$activity=as.factor(t$activity) #make activty column as factor
 
 #-- Filtering now.----------------------------------------------------------
 
 y<-t %>% select(activity,everything()) # reodrder activity column to the first
-ncol(y)
-nrow(y)
 o<-y %>% group_by(activity,subject) %>% summarise_each(funs(mean)) #group by subject, and activity
-ncol(o)
-nrow(o)
+
 # find mean of each column then
 
 #-- clean data writing-------------------------- in present working directory
