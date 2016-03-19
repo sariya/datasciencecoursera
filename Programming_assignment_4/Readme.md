@@ -4,7 +4,7 @@ Sanjeev Sariya
 * Script: `run_analysis.R`
 * Run this script inside downloaded data directory: "UCI HAR Dataset"
 * Script will merge data and generate clean data with 89 columns:
-  * 86 measurements
+  * 86 measurement columns
   * 3 columns: subject, label, and activity
     * 6 activities
     * 30 subjects
