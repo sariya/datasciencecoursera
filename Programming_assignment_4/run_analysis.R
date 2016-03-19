@@ -70,10 +70,17 @@ t$activity="" # add another column for activity
 activity_labels<-read.table("activity_labels.txt",header = F)
 activity_list <- as.list(activity_labels) #get activity list
 
+# activity_list $V1 - has numbers 1,2,3,4,5,6
+# activity_list $V2 - has activity levels: walking, standing, and others
+
 #- add activity to each row. Drop levels
+# Loop over t- merged data
+# merged data has label in it. If label matches from activity list 
+#                               Add respective activity to the row
+
 for(i in 1:dim(t)[1]){
-  g
-  g<-activity_list$V2[which( xy.list$V1 == t$label[i])][1]  %>% droplevels
+  g #temp variable
+  g<-activity_list$V2[which( activity_list$V1 == t$label[i])][1]  %>% droplevels
   t$activity[i]<-levels(g)
 }
 ## for loop ends
