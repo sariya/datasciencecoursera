@@ -7,9 +7,13 @@ Work flow:
 
 1. Read `features.txt` with header as F
 2. Read `X_test.txt` in `x_test` variable
-3. set column names for data read in step 2 from `features` variable
+3. Set column names for data read in step 2 from `features` variable
 4. Get rid of parenthesis and dashes in column names
-5. 
+5. Read `subject_test.txt` in test_subject variable. Info for subject ids
+6. Read labels for test from `y_test.txt`
+7. Add new column **label** to `x_test` variable
+8. Add new column **subject** to `x_test` variable
+
 
 Merged data has 89 columns
 * 89 columns, and 10299 rows in merged data: output - `clean_data.txt`
