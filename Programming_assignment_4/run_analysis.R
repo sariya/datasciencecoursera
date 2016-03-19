@@ -50,7 +50,6 @@ train_labels<-read.table("train/y_train.txt",header = F)
 y_training$label<-train_labels$V1 # add lables 
 y_training$subject<-train_subject$V1 # add subject id
 
-activity_labels<-read.table("activity_labels.txt",header = F)
 j<-select(y_training,subject,label,contains("std"),contains("mean")) # get mean, std
 # order is important 
 
@@ -60,7 +59,7 @@ names(j)<-(gsub("\\.","",names(j)))
 names(j)<-(gsub("mean","Mean",names(j)))
 names(j)<-(gsub("std","Std",names(j))) # change mean to Mean, and std to Std
 
-#-- j varaible has everything clean for y data 
+#-- j variable has everything clean for y data 
 
 ## ------------------ Merging data  here it is stacking -- appending of rows
 
@@ -68,6 +67,7 @@ t<-rbind(r,j)
 
 t$activity="" # add another column for activity
 
+activity_labels<-read.table("activity_labels.txt",header = F)
 activity_list <- as.list(activity_labels) #get activity list
 
 #- add activity to each row. Drop levels
@@ -83,9 +83,11 @@ t$activity=as.factor(t$activity) #make activty colmn as factor
 #-- Filtering now.----------------------------------------------------------
 
 y<-t %>% select(activity,everything()) # reodrder activity column to the first
-
+ncol(y)
+nrow(y)
 o<-y %>% group_by(activity,subject) %>% summarise_each(funs(mean)) #group by subject, and activity
-
+ncol(o)
+nrow(o)
 # find mean of each column then
 
 #-- clean data writing-------------------------- in present working directory
