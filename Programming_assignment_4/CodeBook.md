@@ -51,11 +51,11 @@ Merged data has 89 columns
 
 ###Measurements:
 
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccStdX
-tGravityAccStdY
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tGravityAccStdX
+* tGravityAccStdY
 tGravityAccStdZ
 tBodyAccJerkStdX
 tBodyAccJerkStdY
