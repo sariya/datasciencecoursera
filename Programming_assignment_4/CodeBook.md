@@ -13,7 +13,10 @@ Work flow:
 6. Read labels for test from `y_test.txt`
 7. Add new column **label** to `x_test` variable
 8. Add new column **subject** to `x_test` variable
-
+9. Select column containing mean, and std
+   * Substitute dots in column names
+   * Substitute mean as Mean
+   * Substitute std as Std
 
 Merged data has 89 columns
 * 89 columns, and 10299 rows in merged data: output - `clean_data.txt`
