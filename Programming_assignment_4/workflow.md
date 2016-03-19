@@ -35,4 +35,9 @@
     * It has 2 variables:
       * lables
       * activity name
-20. Add activity information 
+20. Add activity information for each label present in merged data set
+21. Move activity information in 1st column position front
+22. Group data frame by subject, and activity and summarize each of them by mean
+23. Output them using write
+    * clean data set
+    * Mean summary
