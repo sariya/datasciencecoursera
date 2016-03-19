@@ -14,9 +14,9 @@ Work flow:
 7. Add new column **label** to `x_test` variable
 8. Add new column **subject** to `x_test` variable
 9. Select column containing mean, and std and store in variable **r**
-   * Substitute dots in column names
-   * Substitute mean as Mean
-   * Substitute std as Std
+   *Substitute dots in column names
+   *Substitute mean as Mean
+   *Substitute std as Std
 10. Read data for training in `y_training` variable
 11. Set column names for training data
 12. Get rid of parenthesis and dashes in column names
