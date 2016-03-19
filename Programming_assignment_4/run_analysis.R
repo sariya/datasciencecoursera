@@ -95,10 +95,10 @@ o<-y %>% group_by(activity,subject) %>% summarise_each(funs(mean)) #group by sub
 # find mean of each column then
 
 #-- clean data writing-------------------------- in present working directory
-write.table(y,file = "clean_data.txt",quote = FALSE) # you cannot write data frame
+write.table(y,file = "clean_data.txt",quote = FALSE, row.names = FALSE) # you cannot write data frame
 # output clean data
 
-write.table(o,file = "mean_clean_data.txt",quote = FALSE) # you cannot write data frame
+write.table(o,file = "mean_clean_data.txt",quote = FALSE, row.names = FALSE) # you cannot write data frame
 # output data means
 
 
