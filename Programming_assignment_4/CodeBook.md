@@ -9,11 +9,11 @@ Merged data has 89 columns
 
 ###Activity and their labels:
 * `WALKING` label value `1` 
-* `WALKING_UPSTAIRS` value `2`
-* `WALKING_DOWNSTAIRS` value `3`
-* `SITTING` value `4`
-* `STANDING` value `5`
-* `LAYING` value `6`
+* `WALKING_UPSTAIRS` label value `2`
+* `WALKING_DOWNSTAIRS` label value `3`
+* `SITTING` label value `4`
+* `STANDING` label value `5`
+* `LAYING` label value `6`
 
 ###Measurements:
 * tBodyAccStdX
